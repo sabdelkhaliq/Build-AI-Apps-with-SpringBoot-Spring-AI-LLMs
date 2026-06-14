@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: summarizer
+
+spring.ai:
+  openai:
+    api-key: ${api-key}
+  ollama:
+    chat.options:
+      model: llama3.2:1b
+    init:
+      pull-model-strategy: when_missing
+      timeout: 6000s
+      max-retries: 2
