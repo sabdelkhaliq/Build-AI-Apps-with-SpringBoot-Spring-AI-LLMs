@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: SupportTicket
+
+spring.ai.openai.api-key: ${api-key}
