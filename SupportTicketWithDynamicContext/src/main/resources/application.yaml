@@ -2,4 +2,4 @@ spring:
   application:
     name: SupportTicket
 
-spring.ai.openai.api-key: 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
+spring.ai.openai.api-key: ${api-key}
